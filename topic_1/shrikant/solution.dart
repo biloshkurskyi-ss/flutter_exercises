@@ -1,3 +1,5 @@
+import 'Models/animal.dart';
+
 const pi = 3.14159;
 
 void main() {
@@ -7,13 +9,14 @@ void main() {
   var area = areaOfCircle(10);
   print('Total area of circle is $area');
 
-  var dataTypes = ["abcd", 34, "ef", false, pi];
-  FindTheDataTypes(dataTypes);
+  FindTheDataTypes(["abcd", 34, "ef", false, pi]);
 
   var sumOfString = SumofStringValues(['1', '4', '8', '56']);
   print('Total Sum is $sumOfString');
 
   Calculate(4, 2);
+
+  AnimalSpeaking([Dog(), Cat(), Animal()]);
 }
 
 // 1
@@ -46,7 +49,7 @@ int SumofStringValues(List<String> numbers) {
   return finalanswer;
 }
 
-// 5
+// 5     Not able to add tuple in this file
 void Calculate(int i, double d) {
   var sum = i + d;
   var difference = i - d;
@@ -55,4 +58,14 @@ void Calculate(int i, double d) {
 
   print(
       'Sum $sum, Difference $difference, Product $product, Quotient $quotient');
+}
+
+// 6 not able to understand the task
+
+// 7
+void AnimalSpeaking(List<Object> animals) {
+  animals.forEach((element) {
+    dynamic animal = element;
+    animal.Speak();
+  });
 }
