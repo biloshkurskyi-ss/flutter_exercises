@@ -19,7 +19,7 @@ topic_2
 2. Create a function that accepts an age and checks if a person is eligible for a driver's license (minimum age 18) and eligible to vote (minimum age 18). Print an appropriate message for each case.
 2. Write a function that takes a numerical grade and returns a letter grade (A, B, C, D, F) using an else-if chain.
 3. Write a function that takes two numbers as input and returns the greater number using the ternary conditional operator.
-4. Rewrite the letter grade function from the previous task using a switch statement instead of an else-if chain.
+4. Rewrite the letter grade function from the previous task using a switch statement instead of an else-if chain. (Range 6-0)
 
 topic_3
 1. Write a function named greet that takes a String parameter name and prints "Hello, [name]!".
