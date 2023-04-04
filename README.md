@@ -5,7 +5,7 @@ topic_1
 2. Create a constant variable for pi (3.14159) and use it in a function that calculates the area of a circle given its radius.
 3. Write a function that takes a list of mixed data types (int, double, String, etc.) and prints the type of each element at runtime.
 4. Create a function that accepts a list of String representations of numbers, converts them to integers, and then calculates their sum.
-5. Write a function that accepts two numbers (one int and one double) and returns their sum, difference, product, and quotient as a tuple (using mixed-type operators).
+5. Write a function that accepts two numbers (one int and one double) and returns their sum, difference, product, and quotient as a *tuple (check info about it).
 6. Write a function that accepts two strings as input, and demonstrates the following:
     1. - Using single-quotes and double-quotes. Explanation: function('string_1', "string_2")
     2. - Concatenating the strings using the + operator and the addAll method
@@ -15,7 +15,8 @@ topic_1
 
 
 topic_2
-1. Write a function that compares two numbers and prints a message indicating if they are equal, greater than, or less than each other. Create a function that accepts an age and checks if a person is eligible for a driver's license (minimum age 18) and eligible to vote (minimum age 18). Print an appropriate message for each case.
+1. Write a function that compares two numbers and prints a message indicating if they are equal, greater than, or less than each other.
+2. Create a function that accepts an age and checks if a person is eligible for a driver's license (minimum age 18) and eligible to vote (minimum age 18). Print an appropriate message for each case.
 2. Write a function that takes a numerical grade and returns a letter grade (A, B, C, D, F) using an else-if chain.
 3. Write a function that takes two numbers as input and returns the greater number using the ternary conditional operator.
 4. Rewrite the letter grade function from the previous task using a switch statement instead of an else-if chain.
