@@ -7,9 +7,9 @@ topic_1
 4. Create a function that accepts a list of String representations of numbers, converts them to integers, and then calculates their sum.
 5. Write a function that accepts two numbers (one int and one double) and returns their sum, difference, product, and quotient as a tuple (using mixed-type operators).
 6. Write a function that accepts two strings as input, and demonstrates the following:
-    1. - Using single-quotes and double-quotes
+    1. - Using single-quotes and double-quotes. Explanation: function('string_1', "string_2")
     2. - Concatenating the strings using the + operator and the addAll method
-    3. - Interpolating variables into a string
+    3. - Create a number variable and insert it into the previous resulting string
     4. - Creating a multi-line string
 7. Create class hierarchy parent: Animal, subclasses Dog and Cat. The base class should have a method speak(), which should be overridden in the subclasses. Write a function that accepts a list of Animal objects, including both Dog and Cat instances, and iterates through the list, invoking the speak() method on each object. Use the Object and dynamic types.
 

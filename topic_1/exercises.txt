@@ -1,0 +1,11 @@
+ 1. Create a function that accepts a list of numbers and returns the sum. Use type inference to let the Dart compiler infer the types.
+ 2. Create a constant variable for pi (3.14159) and use it in a function that calculates the area of a circle given its radius.
+ 3. Write a function that takes a list of mixed data types (int, double, String, etc.) and prints the type of each element at runtime.
+ 4. Create a function that accepts a list of String representations of numbers, converts them to integers, and then calculates their sum.
+ 5. Write a function that accepts two numbers (one int and one double) and returns their sum, difference, product, and quotient as a tuple (using mixed-type operators).
+ 6. Write a function that accepts two strings as input, and demonstrates the following:
+ - Using single-quotes and double-quotes. Explanation: function('string_1', "string_2")
+- Concatenating the strings using the + operator and the addAll method
+- Create a number variable and insert it into the previous resulting string
+- Creating a multi-line string
+ 7. Create class hierarchy parent: Animal, subclasses Dog and Cat. The base class should have a method speak(), which should be overridden in the subclasses. Write a function that accepts a list of Animal objects, including both Dog and Cat instances, and iterates through the list, invoking the speak() method on each object. Use the Object and dynamic types.
